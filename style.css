@@ -105,12 +105,6 @@ body{
     
     
 }
-.banner-selection .primary-colur{
-    
-    
-}
-
-
 /* our-popular-tours-styles */
 
 .tour{
@@ -226,4 +220,161 @@ background-repeat: no-repeat;
     width: 56%;
     background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 10.png);
     background-repeat: no-repeat;
+}
+
+/* why-chose-content-style */
+.why-chose-content{
+        text-align: center;
+        margin-bottom: 40px;
+}
+.card{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+.card img{
+    width: 10%;
+    height: 20%;
+}
+
+.card-1{
+    width: 48%;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    
+}
+.card-title{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+.card-description{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+.card-2{
+    width: 48%;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.card-2-content{
+    padding: 32px;
+}
+.card-3{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+   margin-left: 310px;
+}
+.card-3 img{
+    width: 10%;
+    height: 20%;
+}
+
+/* mountain-section-styles */
+.bangladesh{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.perfect-place{
+    width: 49%;
+}
+.perfect-place h2{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.perfect-place p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+.perfect-place li{
+    color: #131318;
+    font-size: 14px;
+    font-weight: 700;
+}
+.perfect-place button{
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+}
+.mountain{
+    width: 51%;
+    height: 424px;
+    background-image:url(Images/Group\ 40089.png);
+    background-repeat: no-repeat;
+}
+
+/* newsletter-section-style */
+.newsletter{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.newsletter-container{
+    width: 40%;
+   
+}
+.newsletter-content{
+    width: 474px;
+    height: 370px;
+    padding: 20px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+.newsletter-content h3{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+.newsletter-content p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+.newsletter-content input{
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    border: none;
+    background: rgba(19, 19, 24, 0.05);
+}
+.newsletter-content ::placeholder{
+    padding-left: 20px;
+}
+.newsletter-content button{
+    width: 393px;
+    height: 52px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 800;
+}
+.newsletter-img{
+    width: 56%;
+}
+.newsletter-img img {
+    width: 100%;
+    
+}
+.travel.com{
+    width: 280px;
+    height: 90px;
+    text-align: center;
+    color: #FFF;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+    position: relative;
+    bottom: 160px;
+    left: 380px;
 }
