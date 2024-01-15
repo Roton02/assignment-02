@@ -1,0 +1,229 @@
+/* shared-style-section */
+body{
+    max-width: 1200px;
+    margin: 15px auto;
+    border: 2px solid rebeccapurple;
+    font-family: 'Mulish', sans-serif;
+}
+.primary-colur{
+    color: #FF5400;
+}
+.primary-btn{
+    width: 174px;
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+    background-color:#FF5400 ;
+    color: white;
+}
+.destination-primary-h3{
+    color: #FFF;
+    text-align: center;
+    padding-top: 132px;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+/* header-section-styles */
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+}
+.nav-title{
+    width: 50%;
+    display: flex;
+    gap: 10px;
+}
+.nav-title img{
+    height: 50%;
+    margin-top: 20px;}
+.nav-title h1{
+    font-size: 30px;
+    font-weight: 800;
+}
+.nav-title-2{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 300px;
+}
+ .nav-title-2 a{
+    text-decoration: none;
+    color: #424247;
+    font-size: 18px;
+    font-weight: 400;
+} 
+
+/* banner-styles */
+.banner{
+    width: 1200px;
+    height: 500px;
+    background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+.banner-title{
+    text-align: center;
+    padding-top: 80px;
+}
+.banner-title h1{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+}
+.banner-title p{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.banner-selection{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    /* padding-top: 40px; */
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 895px;
+    height: 74px;
+    
+    
+}
+.banner-selection button{
+    margin-left: 25px;
+    margin-top: 10px;
+    
+}
+.select-btn{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    margin-right: 20px;
+    
+    
+}
+.banner-selection .primary-colur{
+    
+    
+}
+
+
+/* our-popular-tours-styles */
+
+.tour{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+
+}
+.tour-content{
+    width: 50%;
+}
+.tour-content h1{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.tour-description{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+}
+.tour-content li{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+}
+.tour-2nd-description{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+}
+.tour-img{
+    width: 50%;
+    
+}
+.tour-img img{
+    width: 80%;
+    margin-top: 30px;
+    margin-left: 120px;
+}
+
+/* destination styles */
+.destination-content{
+    text-align: center;
+}
+.destination-content h1{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.destination-content p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+}
+.destination-img-sec-1{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.destinationimg1{
+    width: 48%;
+    height: 300px;
+    background-image:linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 5.png);
+    background-repeat: no-repeat;
+}
+
+.desti-img-2{
+width: 48%;
+background-image:linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),url(Images/Rectangle\ 8.png);
+background-repeat: no-repeat;
+}
+
+.destination-img-sec-2{
+    display: flex;
+    margin: 30px 0;
+}
+.desti-2-img-1{
+    width: 374px;
+    height: 286px;
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 6.png);
+    background-repeat: no-repeat;
+}
+.desti-2-img-2{
+    width: 474px;
+    height: 286px;
+    margin-left: 36px;
+    background-image:  linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 7.png);
+    background-repeat: no-repeat;
+}
+.desti-2-img-3{
+    width: 274px;
+    height: 286px;
+    margin-left: 36px;
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+}
+
+.destination-img-sec-3{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+.desti-3-img-1{
+    width: 39.5%;
+    height: 300px;
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 11.png);
+    background-repeat: no-repeat;
+}
+.desti-3-img-2{
+    width: 56%;
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 10.png);
+    background-repeat: no-repeat;
+}
