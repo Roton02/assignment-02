@@ -184,6 +184,7 @@ body{
 
 .desti-img-2{
 width: 48%;
+height: 300px;
 background-image:linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),url(Images/Rectangle\ 8.png);
 background-repeat: no-repeat;
 }
@@ -226,6 +227,7 @@ background-repeat: no-repeat;
 }
 .desti-3-img-2{
     width: 56%;
+    height: 300px;
     background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 10.png);
     background-repeat: no-repeat;
 }
@@ -484,6 +486,8 @@ background-repeat: no-repeat;
     display: none;
 }
 
+
+
 /* small(mobile-divice)responsive-with-media */
 @media screen and (max-width:660px) {
     .navigation{
@@ -543,6 +547,98 @@ background-repeat: no-repeat;
         
         margin-left: 10px;
     }
-    
-    
+
+    .destination-content h1{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .destination-img-sec-1{
+        flex-direction: column;  
+        padding-left: 40px;
+        padding-right: 40px;
+        gap: 10px;
+    }
+    .destinationimg1{
+        width: 100%;
+    }
+    .desti-img-2{
+        width: 100%;
+    }
+    .destination-img-sec-2{
+        flex-direction: column;
+    }
+    .desti-2-img-1,.desti-2-img-2,.desti-2-img-3,.desti-3-img-1{
+        margin: 5px auto;
+        
+    }
+    .destination-img-sec-3{
+        flex-direction: column;  
+        padding-left: 100px;
+        padding-right: 84px;
+        gap: 10px;
+    }
+    .desti-3-img-1{
+        width: 100%;
+        text-align: center;
+       
+    }
+    .desti-3-img-2{
+        width: 100%;
+        
+    }
+    .why-chose-content{
+        margin: 0;
+    }
+    .card{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .card-3,.card-1,.card-2{
+        margin-left: 40px;
+        width: 573px;
+        height: 284px;
+    }
+    .bangladesh{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .perfect-place{
+        width: 100%;
+    }
+    .mountain{
+        width: 100%;
+        margin-left: 40px;
+    }
+    .newsletter{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .newsletter-container{
+        width: 100%;
+        margin-left: 50px;
+    }
+    .newsletter-img{
+        width: 100%;
+        margin-left: 20px;
+    }
+
+    footer{
+        max-width: 660px;
+        margin-left: 30px;
+    }
+    .footer-content{
+        max-width: 400px;
+        padding-top: 20px;
+        text-align: center;
+        margin-left: 120px;
+        
+        
+     }
+     .footer-title{
+        display: flex;
+        margin-left:80px;
+    }
+
+
 }
