@@ -343,6 +343,7 @@ background-repeat: no-repeat;
 
 .extra-sec-description{
     display: flex;
+    gap: 10px;
 }
 
 
