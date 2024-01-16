@@ -2,7 +2,14 @@
 body{
     max-width: 1200px;
     margin: 15px auto;
-    border: 2px solid rebeccapurple;
+    /* border: 2px solid rebeccapurple; */
+    
+}
+footer{
+    max-width: 1360px;
+    margin: 0 auto;
+}
+*{
     font-family: 'Mulish', sans-serif;
 }
 .primary-colur{
@@ -362,19 +369,48 @@ background-repeat: no-repeat;
 .newsletter-img{
     width: 56%;
 }
+
 .newsletter-img img {
-    width: 100%;
-    
+    width: 100%;   
 }
-.travel.com{
-    width: 280px;
-    height: 90px;
-    text-align: center;
-    color: #FFF;
-    transform: rotate(-19.628deg);
+.atast-img{
+    width: 304px;
+    height: 95px;
     border-radius: 16px;
     background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    padding-top: 1px;
     position: relative;
-    bottom: 160px;
-    left: 380px;
+    bottom: 150px;
+    left: 360px;
+    transform: rotate(-19.628deg);
+}
+
+/* footer-section-style */ 
+ footer{
+    height: 400px;
+    background: rgba(19, 19, 24, 0.05);
+    
+ }
+ .footer-content{
+    max-width: 750px;
+    padding-top: 50px;
+    text-align: center;
+    margin-left: 280px;
+ }
+.footer-title{
+    display: flex;
+    margin-left: 250px;
+}
+.footer-title img{
+    height: 50%;
+    margin-top: 20px;
+}
+.social-media{
+   padding: 10px;
+   
+}
+.social-media a{
+    margin-right: 10px;
 }
