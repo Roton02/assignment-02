@@ -53,6 +53,9 @@ body{
     justify-content: space-between;
     margin-left: 300px;
 }
+.nav-title-3{
+    display: none;
+}
  .nav-title-2 a{
     text-decoration: none;
     color: #424247;
@@ -475,4 +478,71 @@ background-repeat: no-repeat;
 }
 .social-media a{
     margin-right: 10px;
+}
+
+.hide{
+    display: none;
+}
+
+/* small(mobile-divice)responsive-with-media */
+@media screen and (max-width:660px) {
+    .navigation{
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-title-2{
+        display: none;
+    }
+    .nav-title-3{
+        display: inline;
+        margin-right: 30px;
+    }
+    .banner{
+        width: 100%;
+
+    }
+    .banner-title h1{
+        font-size: 30px;
+        font-weight: 700px;
+    }
+    .banner-selection{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        width: 200px;
+        height: 150px;
+        padding-bottom: 40px;
+
+    }
+    .banner-selection button{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .banner-selection .primary-btn{
+        padding-right: 10px;
+        margin-right: 16px;
+    }
+    .tour{
+        flex-direction: column;
+    }
+    .tour-content{
+        width: 100%;
+    }
+    .tour-img{
+        width: 100%;
+        
+    }
+    .tour-content h1{
+        
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .tour-img img{
+        width: 100%;
+        
+        margin-left: 10px;
+    }
+    
+    
 }
