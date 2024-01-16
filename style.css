@@ -5,10 +5,7 @@ body{
     /* border: 2px solid rebeccapurple; */
     
 }
-footer{
-    max-width: 1360px;
-    margin: 0 auto;
-}
+
 *{
     font-family: 'Mulish', sans-serif;
 }
@@ -283,6 +280,40 @@ background-repeat: no-repeat;
 .card-3 img{
     width: 10%;
     height: 20%;
+}
+
+/* Extra-bonus-section-style */
+.extra-section-content{
+    text-align: center;
+    margin-top: 100px;
+}
+.extra-sec-img-part-1{
+    width:1200px;
+    height: 500px;
+    margin-top: 40px;
+   
+    background-image: url(Images/Group\ 39.png);
+    background-repeat: no-repeat;
+    
+}
+.extra-all-content{
+    width: 500px;
+    height: 300px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    margin-left: 550px;
+    margin-top: 50px;
+    padding: 20px;
+    /* padding-top: 50px; */
+
+}
+.extra-all-content {
+    margin-top: 50px;
+}
+
+.extra-sec-description{
+    display: flex;
 }
 
 /* mountain-section-styles */
