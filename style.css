@@ -479,7 +479,7 @@ background-repeat: no-repeat;
 
 
 /* small(mobile-divice)responsive-with-media */
-@media screen and (max-width:660px) {
+@media screen and (max-width:600px) {
 
     .dekstop-only{
         display:none;
@@ -549,8 +549,8 @@ background-repeat: no-repeat;
     }
     .destination-img-sec-1{
         flex-direction: column;  
-        padding-left: 40px;
-        padding-right: 40px;
+         padding-left: 20px;
+        /* padding-right: 40px;  */
         gap: 10px;
     }
     .destinationimg1{
@@ -568,8 +568,8 @@ background-repeat: no-repeat;
     }
     .destination-img-sec-3{
         flex-direction: column;  
-        padding-left: 100px;
-        padding-right: 84px;
+        padding-left: 80px;
+        padding-right: 44px;
         gap: 10px;
     }
     .desti-3-img-1{
@@ -605,10 +605,11 @@ background-repeat: no-repeat;
     }
     .perfect-place{
         width: 100%;
+        margin-left: 10px;
     }
     .mountain{
         width: 100%;
-        margin-left: 40px;
+        /* margin-left: 20px; */
     }
     .newsletter{
         flex-direction: column;
@@ -622,16 +623,25 @@ background-repeat: no-repeat;
         width: 100%;
         margin-left: 20px;
     }
+    .atast-img{
+        width: 250px;
+        height: 90px;
+        position: relative;
+        bottom: 140px;
+        left: 320px; 
+        padding-bottom: 2px;
+    }
 
     footer{
-        max-width: 660px;
+        max-width: 600px;
         margin-left: 30px;
+        /* padding-right: 30px; */
     }
     .footer-content{
-        max-width: 400px;
+        max-width: 500px;
         padding-top: 20px;
         text-align: center;
-        margin-left: 120px;
+        margin-left: 80px;
         
         
      }
