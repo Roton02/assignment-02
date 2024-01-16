@@ -3,10 +3,13 @@ body{
     max-width: 1200px;
     margin: 15px auto;
     /* border: 2px solid rebeccapurple; */
-    
+    button:hover{
+        cursor: pointer;
+    }
 }
 
 *{
+    
     font-family: 'Mulish', sans-serif;
 }
 .primary-colur{
@@ -304,36 +307,27 @@ background-repeat: no-repeat;
     font-size: 16px;
     font-weight: 400;
 }
-.extra-sec-img-part-1{
-    width:1200px;
-    height: 500px;
-    margin-top: 40px;
-    position: relative; 
-    background-image: url(Images/Group\ 39.png);
-    background-repeat: no-repeat;
-    padding-bottom: 50px;
-    
+.extra-sec-description{
+    display: flex;
+    gap: 10px;
 }
-.extra-all-content{
+.extra-sec-img-part-1,.extra-sec-img-part-2,.extra-sec-img-part-3{
+    width:1200px;
+    height: 500px;   
+    margin-bottom: 20px;   
+}
+
+.extra-all-content-1{
     width: 500px;
     height: 300px;
-    position: relative;
     border-radius: 16px;
     border: 2px solid #FFF;
     background: rgba(255, 255, 255, 0.80);
     padding: 20px;
-    margin-left: 550px;
-    padding-top: 55px;
+    position: relative;
+    bottom: 420px;
+    left: 580px;
     
-
-}
-.extra-sec-img-part-2{
-    width:1200px;
-    height: 500px;
-    margin-top: 40px;
-    position: relative; 
-    background-image: url(Images/Group\ 40.png );
-    background-repeat: no-repeat;
 }
 .extra-all-content-2{
     width: 500px;
@@ -342,15 +336,11 @@ background-repeat: no-repeat;
     border: 2px solid #FFF;
     background: rgba(255, 255, 255, 0.80);
     padding: 20px;
-    margin-right: 550px;
+    position: relative;
+    bottom: 420px;
+    left: 30px;
+    
 }
-
-
-.extra-sec-description{
-    display: flex;
-    gap: 10px;
-}
-
 
 /* mountain-section-styles */
 .bangladesh{
@@ -490,6 +480,11 @@ background-repeat: no-repeat;
 
 /* small(mobile-divice)responsive-with-media */
 @media screen and (max-width:660px) {
+
+    .dekstop-only{
+        display:none;
+    }
+
     .navigation{
         display: flex;
         justify-content: space-between;
@@ -598,6 +593,11 @@ background-repeat: no-repeat;
         margin-left: 40px;
         width: 573px;
         height: 284px;
+    }
+    .extra-sec-img-part-1,.extra-sec-img-part-2,.extra-sec-img-part-3{
+        max-width:460px;
+        height: 500px;   
+        margin-bottom: 20px;   
     }
     .bangladesh{
         flex-direction: column;
